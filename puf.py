@@ -86,7 +86,7 @@ def bot(op):
             return
         if op.type == 13:
             cl.acceptGroupInvitation(op.param1)
-            cl.sendText(op.param1, "Kickall")
+            cl.sendText(op.param1, "Puf")
         if op.type == 17:
             kk.kickoutFromGroup(op.param1,[op.param2])
             print "Fuck Groups Kick All"
@@ -153,10 +153,10 @@ def bot(op):
             msg = op.message
 
 #-----------------------------[KICK ALL]-----------------------------#
-            if "Kickall" in msg.text:
+            if "Puf" in msg.text:
                 if msg.toType == 2:
                     print "ok"
-                    _name = msg.text.replace("Kickall","")
+                    _name = msg.text.replace("Puf","")
                     gs = ki.getGroup(msg.to)
                     gs = kk.getGroup(msg.to)
                     gs = kc.getGroup(msg.to)
