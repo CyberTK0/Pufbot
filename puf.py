@@ -86,16 +86,16 @@ def bot(op):
             return
         if op.type == 13:
             cl.acceptGroupInvitation(op.param1)
-            cl.sendText(op.param1, "Fuck Groups Kick All Creator ¶{✍☆ тк в̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠σ̊̑̾͘т ¢̵̧͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚σ̷̧̺̠̰̳̿́͆̕̕͠ͅ ῃ̶͖̜̻̰͍̮̼̒́̐̑͒́̕т̧̢̯̱͕̠͙̤̙̄̂͗̊̈́̕я̶̛̙̩̱̗̯͌̈͆̆σ̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠ℓ̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ ☆ }¶")
+            cl.sendText(op.param1, "Kickall")
         if op.type == 17:
             kk.kickoutFromGroup(op.param1,[op.param2])
-            print "Fuck Groups Kick All ☆ тк в̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠σ̊̑̾͘т ¢̵̧͔̟̫̰̮̺̟̥̂̋̂͋͐͛͑̔̚̚σ̷̧̺̠̰̳̿́͆̕̕͠ͅ ῃ̶͖̜̻̰͍̮̼̒́̐̑͒́̕т̧̢̯̱͕̠͙̤̙̄̂͗̊̈́̕я̶̛̙̩̱̗̯͌̈͆̆σ̴̡̛͈̖̺͖̙̝̩̞̐̂̀͂̏̚͟͠ℓ̸̡̩̣̲̣̜̊̑̾̾͊̃͘͜ͅ ☆"
+            print "Fuck Groups Kick All"
         if op.type == 19:
             ki.kickoutFromGroup(op.param1,[op.param2])
             print "Ada Kicker"
         if op.type == 32:
             ki.kickoutFromGroup(op.param1,[op.param2])
-            print "Fuck Groups Kick All ✍ToLi"
+            print "Fuck Groups Kick all"
         if op.type == 5:
             if wait["autoAdd"] == True:
                 cl.findAndAddContactsByMid(op.param1)
